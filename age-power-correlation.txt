@@ -1,0 +1,49 @@
+wizard height:
+log7(x), where x is age (but normal fluctuations like +-20cm and male/female diffs)
+which means:
+age 10 ~ 1.2m
+age 20 ~ 1.5m
+age 40 ~ 1.9m
+age 50 ~ 2m
+age 75 ~ 2.2m
+age 100 ~ 2.4m
+age 150 ~ 2.6m
+age 200 ~ 2.7m
+age 250 ~ 2.8m
+age 300 ~ 2.9m
+
+
+probability a wizard is dead at age x:
+age 50 ~ 0%
+age 75 ~ 1%
+age 85 ~ 5%
+age 100 ~ 10%
+age 125 ~ 30%
+age 150 ~ 60%
+age 175 ~ 80%
+age 200 ~ 90%
+age 225 ~ 95%
+age 250 ~ 99%
+age 275 ~ 99.9%
+age 300 ~ 99.99%
+
+
+reaction times:
+age 10 ~ 2sec
+age 20 ~ 1.5sec
+age 30 ~ 1sec
+age 40 ~ 0.5sec
+age 50 ~ 0.1sec
+age 60 ~ 0sec
+age 70 ~ 0.1sec future
+age 80 ~ 0.25sec future
+age 90 ~ 0.5sec future
+age 100 ~ 1sec future
+age 200 ~ 2sec future
+age 300 ~ 3sec future
+
+
+complete power is being increased by age. like this: complete power * log(age).
+this means, the older a wizard, the more powerful all his stats get.
+this also means, the older he gets, the less powerful is the multiplier.
+a wizard makes more progress from age 10 to 20, than from age 290 to 300.
