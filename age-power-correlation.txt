@@ -42,6 +42,10 @@ age 100 ~ 1sec future
 age 200 ~ 2sec future
 age 300 ~ 3sec future
 
+dont think of these reaction times as a 300 year old wizard catching a fly with chopsticks
+think of it as a shift in the air before a storm breaks or an echo of something thats yet to happen
+its a deeply magical awareness
+  like an intuition or a sense
 
 complete power is being increased by age. like this: complete power * log(age).
 this means, the older a wizard, the more powerful all his stats get.
