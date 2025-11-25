@@ -1,0 +1,17 @@
+html {
+	font-size: 150%;
+}
+
+body {
+	background-color: black;
+	color: lightgrey;
+	font-family: serif;
+}
+
+a {
+	color: grey;
+}
+
+code {
+	font-family: monospace;
+}

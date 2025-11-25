@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>hphc - Ritual, Medium, Emotion</title>
+	<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+	<header>
+		<h1>Harry Potter hard-coded</h1>
+		<nav>
+			<a href="/index.html">Home</a> |
+			<a href="/story.html">Story</a> |
+			<a href="/magic-system.html">Magic System</a> |
+			<a href="/world.html">World</a> |
+			<a href="/misc.html">Misc</a>
+		</nav>
+	</header>
+	<main>
+		<h2>Ritual, Medium and Emotion</h2>
+		<p>In order to perform a spell, the witch or wizard <em>must</em> perform a <strong>Ritual</strong>. The spell <em>can</em> be cast through a <strong>Medium</strong> (0 - n). An <strong>Emotion</strong> <em>can</em> be added to change the strength and/or effect of the spell (depending on the genuine emotion). Which means that in general, one can perform a charm with only a ritual; medium and emotion are optional.<!-- (This is also how children let things happen unconsciously when they're young, their <em>Ritual</em> in this case, is thinking.) [Kind of clunky, wouldn't that be emotion? Like Neville <em>afraid</em> to die of the fall, Harry <em>afraid</em> to go to class with the weird haircut, Harry being <em>angry</em> at Dudley and hence removing the glass...] --></p>
+		<h3>Ritual</h3>
+		<p><em>A Ritual</em> is an act, with which the charm is being initiated. The Ritual decides the effect of the spell, as well as the strength. It can be anything a witch or wizard <em>does</em>. The default for most of hphc is: <em>saying</em> a spell, <em>moving</em> a wand, <em>concentrating</em> on something. But it can also be things such as: dancing, singing, making music, maths, calligraphy, building, studying, drawing, dreaming, eating, intoxication, murder, ...</p>
+		<p>The more complicated and longer the Ritual, the stronger the <code>ritual.strength</code>.</p>
+		<h3>Medium</h3>
+		<p><em>The Medium</em> is a physical object through which the charm is being cast. It can be anything physical. The default for most of hphc is <em>a wand</em>. The more impractical/bulky/unique/valuable the Medium, the stronger the <code>medium.strength</code>.</p>
+		<h3>Emotion</h3>
+		<p>
+			Emotions can be roughly categorized to light and dark. If the wizard performs the spell without a particular emotion, we call this spell <em>neutral</em>. Further, you can split light and dark emotions into emotions felt in connection to other people, or not; of course there is also in-between.<br>
+			The strength of the emotion is multiplicated to the <em>charm.strength</em>, as well as having <em>0 - n</em> optional, additional effects.<br>
+		</p>
+		<p>Apart from connected or not-connected emotions, dark emotions can further be categorized as being "bad" (harmful, aggressive, outwardly destructive, ...), and "sad" (wounded, heavy, inwardly destructive, ...). A soul will be broken, if one <em>tries</em> to hurt (physically and emotionally) another with a spell that is modified by a <em>bad</em> emotion.</p>
+		<p>Some examples:</p>
+		<ul>
+			<li>
+				Light:
+				<ul>
+					<li>
+						Connected:
+						<ul>
+							<li>Love</li>
+							<li>Friendship</li>
+							<li>Gratitude</li>
+							<li>Compassion</li>
+							<li>Geborgenheit</li>
+						</ul>
+					</li>
+					<li>
+						Not-connected:
+						<ul>
+							<li>Hope</li>
+							<li>Relief</li>
+							<li>Happiness</li>
+							<li>Joy</li>
+							<li>Serenity</li>
+							<li>Awe</li>
+							<li>Wonder</li>
+							<li>Gratitude</li>
+							<li>Geborgenheit</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				Dark:
+				<ul>
+					<li>
+						Connected:
+						<ul>
+							<li>
+								Bad:
+								<ul>
+									<li>Hatred</li>
+									<li>Jealousy/Envy</li>
+									<li>Resentment</li>
+									<li>Vengefulness</li>
+									<li>Bitterness</li>
+									<li>Spite</li>
+								</ul>
+							</li>
+							<li>
+								Sad:
+								<ul>
+									<li>Guilt</li>
+									<li>Shame</li>
+									<li>Betrayal</li>
+									<li>Heartbreak</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						Not-connected:
+						<ul>
+							<li>
+								Bad:
+								<ul>
+									<li>Rage</li>
+									<li>Self-loathing</li>
+									<li>Cynicism</li>
+									<li>Destructiveness</li>
+								</ul>
+							</li>
+							<li>
+								Sad:
+								<ul>
+									<li>Loneliness</li>
+									<li>Hopelessness</li>
+									<li>Depression</li>
+									<li>Nostalgia</li>
+									<li>Emtpiness</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		<h2>Other</h2>
+		<p>Witches and wizards can't, in general, join their spells. To do so is extremely dangerous and can entangle their minds and bodies. The knowledge on how to properly do it is <a href="/world/cultures/maya.html">long lost.</a></p>
+	</main>
+</body>
+</html>
