@@ -23,7 +23,7 @@ header {
 	justify-content: center;
 	height: 300px;
 	background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F562430.jpg&f=1&nofb=1&ipt=932a8b3103314eabad2fede1b0c56fded8241a87ce4d15ae1b1c53f1dac28607');
-	background-size: cover;
+	background-size: 120% cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	color: white;
