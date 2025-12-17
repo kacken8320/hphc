@@ -29,4 +29,8 @@ header {
 	color: white;
 	font-size: 1em;
 	text-shadow: 1px 1px 5px black;
+	a {
+		color: lightblue;
+		text-shadow: 1px 1px 5px black;
+	}
 }
